@@ -1,0 +1,185 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  background-color: #8a2be291;
+  color: rgb(255, 255, 255);
+  height: 60px;
+  font-weight: 500;
+  position: fixed;
+  width: 100%;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-left {
+  position: absolute;
+  width: 125px;
+  height: 32px;
+  left: 80px;
+  top: 14px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right ul {
+  padding: 20px 20px;
+  cursor: pointer;
+}
+
+.header-right li {
+  display: inline-block;
+  margin: 0px 15px;
+}
+
+.header-right li:hover {
+  color: blue;
+  transition: 0.5s;
+}
+
+.header-right span {
+  background-color: blue;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.header-right span:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(51, 63, 230);
+  padding: 10px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.top-wrapper {
+  padding: 325px 0 240px 0;
+  background-image: url(assets/banner.jpg);
+  background-size: cover;
+  text-align: left;
+  width: 100%;
+
+}
+
+
+.container h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 115px;
+  display: flex;
+  letter-spacing: -0.015em;
+  color: white;
+  width: 100%;
+}
+
+.lessons-wrapper {
+  background-color: rgb(179, 179, 179);
+  padding: 30px 50px;
+  text-align: center;
+}
+
+.heading h1 {
+  font-size: 48px;
+  color: black;
+  display: inline-block;
+  letter-spacing: -0.015em;
+}
+
+
+/* Bersama Kami */
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.messages h1 {
+  font-size: 48px;
+  color: black;
+  display: inline-block;
+  letter-spacing: -0.015em;
+}
+
+.messages h2 {
+  font-size: 30px;
+  color: black;
+  display: inline-block;
+  padding-bottom: 50px;
+  letter-spacing: -0.015em;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-decoration-line: none;
+}
+
+.btn:hover {
+  box-shadow: 0 7px #1a307931;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.email {
+  background-color: blue;
+ }
+ 
+.google {
+ background-color: rgb(206, 51, 40);
+}
+
+.github {
+  background-color: rgb(10, 10, 15);
+  margin-right: 10px;
+ }
+
+ .messages p {
+   display: inline-block;
+ }
