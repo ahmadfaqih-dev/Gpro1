@@ -20,6 +20,14 @@ h2 {
   font-weight: normal;
 }
 
+h3 {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: normal;
+  margin-left: -47px;
+  margin-top: 13px;
+  font-size: 20px;
+}
+
 li {
   list-style: none;
 }
@@ -107,7 +115,7 @@ header {
 }
 
 .lessons-wrapper {
-  background-color: rgb(179, 179, 179);
+  background-color: #F1EDF1;
   padding: 30px 50px;
   text-align: center;
 }
@@ -117,6 +125,10 @@ header {
   color: black;
   display: inline-block;
   letter-spacing: -0.015em;
+}
+
+.heading p {
+  margin-bottom: 40px;
 }
 
 
@@ -183,3 +195,85 @@ header {
  .messages p {
    display: inline-block;
  }
+
+.team-wrapper {
+  display: inline-block;
+ }
+
+ .team {
+  width: 208px;
+  height: 242px;
+  border-radius: 4px;
+  margin-right: 40px;
+ }
+
+
+
+
+ /* Eric */
+
+ footer {
+  position: absolute;
+  width: 100%;
+  height: 140px;
+  left: 0px;
+  background-color: #666666;
+  color: #fff;
+  padding-bottom: 50px;
+ }
+
+
+ .footer-logo {
+  float: left;
+  padding: 60px 0px;
+  width: 208px;
+  height: 63px;
+}
+
+.footer-list {
+  float: right;
+  cursor: pointer;
+}
+
+.footer-list li {
+  padding: 10px 28px;
+  font-size: 14px;
+  height: 13px;
+}
+
+input {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.form span {
+  color: brown;
+}
+
+.btn-input {
+  background-color: blue;
+  cursor: pointer;
+  color: white;
+}
+
+.form p {
+  text-align: left;
+  margin-left: 388px;
+}
